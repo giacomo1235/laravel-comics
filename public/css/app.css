@@ -127,3 +127,94 @@ footer .footer-social ul a {
   text-decoration: none;
   color: blue;
 }
+
+/* main content */
+.contents {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 100px;
+}
+.contents h1 {
+  margin-left: 100px;
+}
+.contents h2 {
+  font-size: 1rem;
+}
+
+.jumbotron {
+  background-image: url(../images/jumbotron.jpg);
+  height: 400px;
+}
+
+.current {
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  left: 7%;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  font-weight: 600;
+}
+
+.button-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.button-load button {
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  margin: 20px;
+  padding: 10px 50px;
+}
+
+.cards {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  height: 133px;
+}
+.cards img {
+  width: 70px;
+  padding: 10px;
+}
+.cards li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 30px;
+}
+.cards li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* card hero */
+.card-hero {
+  text-transform: uppercase;
+  color: white;
+  width: 15%;
+  height: 15%;
+  overflow: hidden;
+  padding: 20px;
+}
+.card-hero:hover {
+  cursor: pointer;
+}
+.card-hero .title {
+  font-size: 1rem;
+}
