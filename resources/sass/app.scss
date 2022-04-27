@@ -1,1 +1,138 @@
 //
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;800;900&display=swap'); */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;;
+}
+
+header {
+    .container { 
+        width: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-content: center;
+          /* padding: 20px; */
+      }
+      img {
+        padding: 5px;
+      }
+      
+      ul {
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+      }
+      
+      li {
+          text-transform: uppercase;
+          display: flex;
+          padding: 20px;
+          padding-bottom: 0;
+          a {
+              padding: 20px 0;
+              color: black;
+              font-weight:600;
+              display: inline-block;
+              text-decoration: none;
+              border-bottom: 5px solid transparent;
+              &:hover {
+                color: blue;
+                border-bottom: 5px solid blue;
+              }
+          }
+      }
+}
+
+ /* footer */
+  footer {
+    height: 400px;
+    background-image: url(../images/footer-bg.jpg); 
+  
+  .main-footer {
+    display: flex;
+    .col-left {
+    width: 50%;
+    height: 400px;
+    display: contents;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 30px;
+    ul {
+      li {
+        list-style: none;
+        margin: 3px 0;
+        a {
+          color: gray;
+          text-decoration: none;
+        }
+      }
+      .title-li {
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  }
+  
+  .col-4 {
+    width: 15%;
+    margin: 30px;
+    font-size: 1.2rem;
+  }
+  .col-right {
+    width: 50%;
+    height: 400px;
+    /* position: relative; */
+    overflow: hidden;
+   /*  img {
+      position: absolute;
+      top: -23%;
+    } */
+  }
+  .footer-social {
+    background-color: rgb(19%, 19%, 19%);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    .col-right {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    }
+    img {
+      width: 35px;
+    }
+    button {
+      height: 50px;
+      background: transparent;
+      border: 3px solid blue;
+      color: white;
+      text-transform: uppercase;
+      padding: 15px;
+      font-weight: 700;
+      margin-left: 100px;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: .3;
+      align-items: center;
+      list-style: none;
+      color: blue;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.2rem;
+      a{
+        text-decoration: none;
+        color: blue
+      }
+    }
+  }  
+}
