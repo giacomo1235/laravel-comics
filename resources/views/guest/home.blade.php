@@ -7,13 +7,15 @@
     <div class="container">
         <div class="jumbotron"></div>
         <div class="current">current series</div>
-        <div class="contents">
-            @foreach ($series as $serie)
-                <div class="card-hero">
-                    <img src="{{$serie['thumb']}}" alt="">
-                    <h2 class="title">{{$serie['series']}}</h2>
-                </div>    
-            @endforeach
+        <div class="centered">
+          <div class="contents">
+              @foreach ($series as $serie)
+                  <div class="card-hero">
+                      <img src="{{$serie['thumb']}}" alt="">
+                      <h2 class="title">{{$serie['series']}}</h2>
+                  </div>    
+              @endforeach
+          </div>
         </div>
         <div class="button-load">
             <button>load more</button>

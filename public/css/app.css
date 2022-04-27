@@ -133,14 +133,22 @@ footer .footer-social ul a {
 }
 
 /* main content */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
 .contents {
+  width: 80%;
   background-color: black;
   color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  padding: 20px 100px;
+  padding: 60px 0;
 }
 .contents h1 {
   margin-left: 100px;
@@ -151,6 +159,7 @@ footer .footer-social ul a {
 
 .jumbotron {
   background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
   height: 400px;
 }
 
@@ -212,13 +221,15 @@ footer .footer-social ul a {
   text-transform: uppercase;
   color: white;
   width: 15%;
-  height: 15%;
+  height: 350px;
   overflow: hidden;
-  padding: 20px;
 }
 .card-hero:hover {
   cursor: pointer;
 }
 .card-hero .title {
   font-size: 1rem;
+}
+.card-hero img {
+  width: 100%;
 }
