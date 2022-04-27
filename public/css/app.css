@@ -21,6 +21,10 @@ header ul {
   align-content: center;
   justify-content: space-evenly;
 }
+header .active {
+  color: rgb(56, 128, 240);
+  border-bottom: 5px solid rgb(56, 128, 240);
+}
 header li {
   text-transform: uppercase;
   display: flex;
@@ -36,8 +40,8 @@ header li a {
   border-bottom: 5px solid transparent;
 }
 header li a:hover {
-  color: blue;
-  border-bottom: 5px solid blue;
+  color: rgb(56, 128, 240);
+  border-bottom: 5px solid rgb(56, 128, 240);
 }
 
 /* footer */
@@ -105,7 +109,7 @@ footer .footer-social img {
 footer .footer-social button {
   height: 50px;
   background: transparent;
-  border: 3px solid blue;
+  border: 3px solid rgb(56, 128, 240);
   color: white;
   text-transform: uppercase;
   padding: 15px;
@@ -118,14 +122,14 @@ footer .footer-social ul {
   flex-grow: 0.3;
   align-items: center;
   list-style: none;
-  color: blue;
+  color: rgb(56, 128, 240);
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.2rem;
 }
 footer .footer-social ul a {
   text-decoration: none;
-  color: blue;
+  color: rgb(56, 128, 240);
 }
 
 /* main content */
@@ -155,7 +159,7 @@ footer .footer-social ul a {
   position: absolute;
   top: 500px;
   left: 7%;
-  background-color: blue;
+  background-color: rgb(56, 128, 240);
   color: white;
   text-transform: uppercase;
   padding: 10px 50px;
@@ -169,7 +173,7 @@ footer .footer-social ul a {
   background-color: black;
 }
 .button-load button {
-  background-color: blue;
+  background-color: rgb(56, 128, 240);
   color: white;
   text-transform: uppercase;
   font-weight: 600;
@@ -179,7 +183,7 @@ footer .footer-social ul a {
 }
 
 .cards {
-  background-color: blue;
+  background-color: rgb(56, 128, 240);
   display: flex;
   justify-content: center;
   list-style: none;
