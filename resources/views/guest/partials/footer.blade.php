@@ -3,7 +3,21 @@
       <div class="col-left">
         <div class="col-4">
           <ul id="dcComics">
-          <li class="title-li">dc comics</li>
+          @php
+            $arrLinks = config('footermenu')   
+          @endphp  
+          @foreach ($arrLinks as $link)
+          {{-- @dd($link) --}}
+          <ul>
+            <li class="title-li">dc comics</li>
+            @foreach ($link['linkComics'] as $item)
+            <li><a href="{{$item['href']}}">{{$item['text']}}</a></li>   
+            @endforeach
+          </ul>
+    
+          @endforeach
+          {{-- @dd($arrLinks) --}}
+          {{-- <li class="title-li">dc comics</li>
           <li><a href="#!">Characters</a></li>
           <li><a href="#!">Comics</a></li>
           <li><a href="#!">Movies</a></li>
@@ -11,38 +25,41 @@
           <li><a href="#!">Games</a></li>
           <li><a href="#!">Collectibles</a></li>
           <li><a href="#!">Videos</a></li>
-          <li><a href="#!">News</a></li>
+          <li><a href="#!">News</a></li> --}}
         </ul>
         <ul id="shop">
-          <li class="title-li">shop</li>
-          <li><a href="#!">Shop DC</a></li>
-          <li><a href="#!">Collectibles</a></li>
+          @foreach ($arrLinks as $link)
+          <ul>
+            <li class="title-li">shop</li>
+            @foreach ($link['linksShop'] as $item)
+            <li><a href="{{$item['href']}}">{{$item['text']}}</a></li>   
+            @endforeach
+          </ul>
+          @endforeach
         </ul>
         </div>
         <div class="col-4">
           <ul class="dc">
-          <li class="title-li">dc</li>
-          <li><a href="#!">Terms of Use</a></li>
-          <li><a href="#!">Privacy Policy</a></li>
-          <li><a href="#!">Ad Choices</a></li>
-          <li><a href="#!">Advertising</a></li>
-          <li><a href="#!">Jobs</a></li>
-          <li><a href="#!">Subscription</a></li>
-          <li><a href="#!">Talent Workshops</a></li>
-          <li><a href="#!">CPSC Certificates</a></li>
-          <li><a href="#!">Ratings</a></li>
-          <li><a href="#!">Shop Help</a></li>
-          <li><a href="#!">Contact Us</a></li>
+            @foreach ($arrLinks as $link)
+            <ul>
+              <li class="title-li">dc</li>
+              @foreach ($link['linksDc'] as $item)
+              <li><a href="{{$item['href']}}">{{$item['text']}}</a></li>   
+              @endforeach
+            </ul>
+            @endforeach
         </ul>
         </div>
         <div class="col-4">
           <ul class="sites">
-          <li class="title-li">sites</li>
-          <li><a href="#!">DC</a></li>
-          <li><a href="#!">MAD Magazine</a></li>
-          <li><a href="#!">DC Kids</a></li>
-          <li><a href="#!">DC Universe</a></li>
-          <li><a href="#!">DC Power Visa</a></li>
+            @foreach ($arrLinks as $link)
+            <ul>
+              <li class="title-li">sites</li>
+              @foreach ($link['linksSites'] as $item)
+              <li><a href="{{$item['href']}}">{{$item['text']}}</a></li>   
+              @endforeach
+            </ul>
+            @endforeach
         </ul>
         </div>
       </div>

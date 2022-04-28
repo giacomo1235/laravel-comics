@@ -152,6 +152,7 @@ header {
   align-items: center;
   justify-content: space-around;
   padding: 60px 0;
+  gap: 18px;
   h1 {
     margin-left: 100px;
   }
@@ -222,8 +223,7 @@ header {
   text-transform: uppercase;
   color: white;
   width: 15%;
-  height: 350px;
-  overflow: hidden;
+  height: 300px;
   &:hover {
     cursor: pointer;
   }

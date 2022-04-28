@@ -1,38 +1,119 @@
 <?php
 
 return [
-    "linkComics" => [
-        [
-            "href" => "#!",
-            "text" => "characters"
+    [
+    
+        "linkComics" => [
+            [
+                "href" => "#!",
+                "text" => "characters"
+            ],
+            [
+                "href" => "#!",
+                "text" => "comics"
+            ],
+            [
+                "href" => "#!",
+                "text" => "movies"
+            ],
+            [
+                "href" => "#!",
+                "text" => "tv"
+            ],
+            [
+                "href" => "#!",
+                "text" => "games"
+            ],
+            [
+                "href" => "#!",
+                "text" => "collectibles"
+            ],
+            [
+                "href" => "#!",
+                "text" => "videos"
+            ],
+            [
+                "href" => "#!",
+                "text" => "news"
+            ]
         ],
-        [
-            "href" => "#!",
-            "text" => "comics"
+        "linksShop" => [
+            [
+                "href" => "#!",
+                "text" => "characters"
+            ],
+            [
+                "href" => "#!",
+                "text" => "comics"
+            ]
         ],
-        [
-            "href" => "#!",
-            "text" => "movies"
+        "linksDc" => [
+            [
+                "href" => "#!",
+                "text" => "characters"
+            ],
+            [
+                "href" => "#!",
+                "text" => "comics"
+            ],
+            [
+                "href" => "#!",
+                "text" => "movies"
+            ],
+            [
+                "href" => "#!",
+                "text" => "tv"
+            ],
+            [
+                "href" => "#!",
+                "text" => "games"
+            ],
+            [
+                "href" => "#!",
+                "text" => "characters"
+            ],
+            [
+                "href" => "#!",
+                "text" => "comics"
+            ],
+            [
+                "href" => "#!",
+                "text" => "movies"
+            ],
+            [
+                "href" => "#!",
+                "text" => "tv"
+            ],
+            [
+                "href" => "#!",
+                "text" => "games"
+            ],
+            [
+                "href" => "#!",
+                "text" => "games"
+            ]
         ],
-        [
-            "href" => "#!",
-            "text" => "tv"
-        ],
-        [
-            "href" => "#!",
-            "text" => "games"
-        ],
-        [
-            "href" => "#!",
-            "text" => "collectibles"
-        ],
-        [
-            "href" => "#!",
-            "text" => "videos"
-        ],
-        [
-            "href" => "#!",
-            "text" => "news"
-        ],
+        "linksSites" => [
+            [
+                "href" => "#!",
+                "text" => "comics"
+            ],
+            [
+                "href" => "#!",
+                "text" => "movies"
+            ],
+            [
+                "href" => "#!",
+                "text" => "tv"
+            ],
+            [
+                "href" => "#!",
+                "text" => "games"
+            ],
+            [
+                "href" => "#!",
+                "text" => "games"
+            ]
+        ]
     ]
 ];
